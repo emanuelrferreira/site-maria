@@ -1,0 +1,41 @@
+/* global */
+
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital@0;1&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", serif;
+}
+/* header */
+
+header {
+    background: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 10px 20px;
+}
+
+.nome-logo > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+}
+
+li > a {
+    text-decoration: none;
+    color: #fff;
+}
