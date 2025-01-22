@@ -68,9 +68,14 @@ hr {
 
 .expertise-items > ul {
     display: table-cell;
-    list-style-type: circle;
+    list-style-type: none;
+    list-style-position: inside;
 }
 
 .expertise-items > ul > li {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.cert-margin {
+    margin-bottom: 15px;
 }
