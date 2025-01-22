@@ -1,0 +1,60 @@
+main > h1 { 
+    padding: 30px 0;
+}
+
+hr {
+    margin: 20px auto;
+    border: 1px solid #c97e6028;
+    width: 85%;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+}
+
+.item-container {
+    display: flex;
+    justify-content: center;
+}
+
+.projeto-txt h2 {
+    color: #C97D60;
+    margin-bottom: 15px;
+}
+
+.projeto-txt {
+    max-width: 590px;
+}
+
+.txt-cont {
+    display: flex;
+    flex-direction: column;
+}
+
+.projeto-txt a {
+    text-decoration: none;
+    align-self: flex-start;
+    margin-top: 40px;
+    background:#c97e60d5;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.projeto-txt a:hover {
+    background:#c97e60;
+    color: #fff;
+    transition: background .5s;
+}
+
+.projeto-img {
+    background-image: url(../assets/img/lorem-ipsum.jpg);
+    background-size: cover;
+    border: 1px solid #c97e6048;
+    width: 400px;
+    height: 200px;
+}
+
