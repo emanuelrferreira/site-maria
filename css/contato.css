@@ -1,3 +1,5 @@
+
+
 main > h1 { 
     padding-top: 30px;
     padding-bottom: 15px;
@@ -24,11 +26,16 @@ form {
     max-width: 600px;
 }
 
+span {
+    color: #C97D60;
+}
+
 label, button {
     display: block;
     margin-bottom: 5px;
     font-weight: 400;
 }
+
 input, textarea {
     width: 80%;
     padding: 10px;
