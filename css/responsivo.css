@@ -5,6 +5,11 @@
         flex-direction: column;
         gap: 30px;
     }
+
+    .text-main {
+        width: 340px;
+    }
+
     .text-main h1 {
         align-self: center;
     }
