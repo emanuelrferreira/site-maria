@@ -1,0 +1,27 @@
+/* home */
+
+@media (max-width: 765px) {
+    main {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .text-main h1 {
+        align-self: center;
+    }
+
+    .text-main a {
+    align-self: center;
+}
+}
+
+/* curriculo */
+
+@media (max-width: 765px) {
+    .container {
+        flex-direction: column;
+        gap: 0;
+    }
+    .titulo-responsivo h2 {
+        margin-bottom: 15px;
+    }
+}
