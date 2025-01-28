@@ -1,0 +1,48 @@
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ebebeb41;
+}
+
+.container {
+    border: 1px solid #c97e6048;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.img {
+    background-image: url(../assets/img/envelope.png);
+    margin: auto;
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+}
+
+.txt {
+    margin: auto;
+    text-align: center;
+}
+
+.txt h1 {
+    padding: 15px;
+}
+
+.txt a {
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    align-self: flex-end;
+    background:#c97e60d5;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background .5s;
+}
+
+.txt a:hover {
+    background:#c97e60;
+}

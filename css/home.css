@@ -40,11 +40,10 @@ main {
     color: #fff;
     padding: 10px;
     border-radius: 8px;
+    transition: background .5s;
 }
 
 
 .text-main a:hover {
     background:#c97e60;
-    color: #fff;
-    transition: background .5s;
 }
